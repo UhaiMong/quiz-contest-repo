@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <nav>
+        <nav className='nav-container'>
             <div className="header-title">
                 <h3>Quiz Contest</h3>
             </div>

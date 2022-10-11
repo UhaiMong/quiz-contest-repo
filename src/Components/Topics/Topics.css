@@ -1,3 +1,17 @@
+.quiz-content{
+    border: 1px solid crimson;
+    width: 80%;
+    margin: 30px auto;
+    padding-bottom: 25px;
+    background-image: url("../../../public/OTX-sample-code.png");
+    background-repeat: repeat-x;
+    background-size: contain;
+    border-radius: 9px;
+}
+.quiz-content p,h2{
+    font-weight: bold;
+}
+
 .quiz-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);

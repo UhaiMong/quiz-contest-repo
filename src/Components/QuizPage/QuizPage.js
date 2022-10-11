@@ -1,3 +1,5 @@
+import { faEye } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useEffect, useState } from 'react';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -21,11 +23,15 @@ const QuizPage = ({ quizQuestion }) => {
             toast("Please Try Again!!");
         }
     }
+    const showAnswer = () => {
+        toast("Answer->  "+correctAnswer)
+    }
     return (
         <div>
             <div className='question'>
                 <h3>{question}</h3><br />
             </div>
+            <button onClick={showAnswer} className='btn-eye'><FontAwesomeIcon icon={faEye} /></button>
             <div>
                 {
                     options.map((option,_indx) => <div className='ans-page'

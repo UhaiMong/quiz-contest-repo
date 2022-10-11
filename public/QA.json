@@ -1,0 +1,17 @@
+[
+  {
+    "id": "6345b903b85c1c17b343212e",
+    "question": "What is the purpose of react router?",
+    "answer": "React Router is a standard library for routing in React. It enables the navigation among views of various components in a React Application, allows changing the browser URL, and keeps the UI in sync with the URL."
+  },
+  {
+    "id": "6345b9039c21db3aad77b905",
+    "question": "How does Context API work?",
+    "answer": "Context API is used to pass global variables anywhere in the code."
+  },
+  {
+    "id": "6345b9037169d2fd22444d6e",
+    "question": "What is useRef in react?",
+    "answer": "Mutable values useRef (initialValue) is a built-in React hook that accepts one argument as the initial value and returns a reference (aka ref ). A reference is an object having a special property current."
+  }
+]

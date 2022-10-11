@@ -8,6 +8,12 @@
 .question h3{
     color: #3bc4f1bf;
 }
+.btn-eye{
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    margin: 20px 0px;
+}
 .ans-page{
     display: flex;
     width: 60%;

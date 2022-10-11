@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react';
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import './QuizPage.css'
 
 const QuizPage = ({ quizQuestion }) => {
@@ -13,10 +15,10 @@ const QuizPage = ({ quizQuestion }) => {
     // }, []);
     const choiceHandler = (option) => {
         if (correctAnswer === option) {
-            alert("correct answer.");
+            toast("Excellent!!");
         }
         else {
-            alert('wrong answer.');
+            toast("Please Try Again!!");
         }
     }
     return (
@@ -33,6 +35,7 @@ const QuizPage = ({ quizQuestion }) => {
                         <input type="radio" id="ansId"
                             name="contact" value="option"/>
                         <label for="Choice1">{option}</label>
+                        <ToastContainer/>
                     </div>)
                 }
             </div>

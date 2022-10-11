@@ -3,7 +3,7 @@
 ## Working Steps of this project
 
 1. creating the react Project
-    ### npm create-react-app {app name}
+    ### npx create-react-app {app name}
     ### instal necessary library
     ### connect with private repo in github
 2. Creating dynamic rout.

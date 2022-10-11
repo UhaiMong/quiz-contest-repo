@@ -1,0 +1,22 @@
+.question{
+    width: 70%;
+    margin: 0 auto;
+    border: 1px solid crimson;
+    border-radius: 9px;
+    margin-bottom: 12px;
+}
+.question h3{
+    color: #3bc4f1bf;
+}
+.ans-page{
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #add8e648;
+    margin-bottom: 9px;
+    border-radius: 9px;
+}
+.ans-page:focus{
+    background-color: lightblue;
+}

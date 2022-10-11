@@ -30,8 +30,11 @@
     padding: 7px;
     border-radius: 9px;
     cursor: pointer;
-    color: white;
     font-weight: 700;
+}
+.btn-go a{
+    color: white;
+    text-decoration: none;
 }
 .btn-go:hover{
     text-decoration: underline;

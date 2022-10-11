@@ -1,0 +1,23 @@
+.quiz-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+@media screen and (max-width:1257px) {
+    .quiz-container{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media screen and (max-width:931px) {
+    .quiz-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width:611px) {
+    .quiz-container {
+        grid-template-columns: 1fr;
+    }
+}

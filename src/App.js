@@ -13,10 +13,12 @@ function App() {
       children: [
         {
           path: '/',
+          loader: () => fetch('https://openapi.programming-hero.com/api/quiz'),
           element:<Topics></Topics>
         },
         {
           path: '/topics',
+          loader: () => fetch('https://openapi.programming-hero.com/api/quiz'),
           element: <Topics></Topics>
         },
         {
@@ -27,6 +29,10 @@ function App() {
           path: '/blogs',
           element: <Blogs></Blogs>
         },
+        {
+          path: '*',
+          element:<h4>404 page not found!!</h4>
+        }
       ]
     }
   ])

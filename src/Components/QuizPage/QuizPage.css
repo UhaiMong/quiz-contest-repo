@@ -1,3 +1,7 @@
+.toast-icon{
+    font-size: 30px;
+    color: lightgreen;
+}
 .question{
     width: 70%;
     margin: 0 auto;
@@ -22,7 +26,8 @@
     background-color: #add8e648;
     margin-bottom: 9px;
     border-radius: 9px;
+    cursor: pointer;
 }
 .ans-page:focus{
-    background-color: lightblue;
+    background-color: #0d0d0d;
 }

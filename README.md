@@ -11,6 +11,7 @@
 4. Develope the app with react
 5. Run build the App.
 6. Deploy the app in netlify.com
+7. Reload page not found bug fixed
 
 # Features of This App ~ **v1.0**
 ### Best for Beginner 
@@ -20,9 +21,9 @@
 ### Flexibility
 ### Responsive for all devices
 
-## [github repo:](https://github.com/programming-hero-web-course2/b6-quiz-crackerz-UhaiMong) 
+## [Click here to go github repo](https://github.com/programming-hero-web-course2/b6-quiz-crackerz-UhaiMong) 
 
-## [Live website:](https://boisterous-rabanadas-750d6a.netlify.app/)
+## [Click here to see Live website](https://boisterous-rabanadas-750d6a.netlify.app/)
 
 
 

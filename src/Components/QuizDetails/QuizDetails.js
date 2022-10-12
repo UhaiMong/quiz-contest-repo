@@ -7,6 +7,11 @@ const QuizDetails = () => {
     // console.log(quizDetails.data.questions[1].options);
     return (
         <div>
+            <div>
+                <small>Correct Answer: </small>
+                <small>Wrong Answer: </small>
+            </div>
+
             <h1>{quizDetails.data.name}</h1>
             <div>
                 {

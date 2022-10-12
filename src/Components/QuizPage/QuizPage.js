@@ -9,20 +9,16 @@ const QuizPage = ({ quizQuestion }) => {
 
     const { question, options, correctAnswer
 } = quizQuestion;
+const correctCount = 0;
+const wrongCount = 0;
 
-    let correctCount = 0;
-    let wrongCount = 0;
-    const choiceHandler = (option) => {
+const choiceHandler = (option) => {
 
         if (correctAnswer === option) {
             toast("Excellent!!");
-            let newCount = correctCount + 1;
-            console.log(newCount);
         }
         else {
             toast("Plz, Try again!");
-            let newCount=wrongCount+1;
-            console.log(newCount);
         }
     }
     const showAnswer = () => {
@@ -32,7 +28,6 @@ const QuizPage = ({ quizQuestion }) => {
         <div>
             <div>
                 <ToastContainer />
-                
             </div>
 
             <div className='question'>

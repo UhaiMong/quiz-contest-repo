@@ -15,7 +15,7 @@ const Statistics = () => {
                     </PieChart>
                 </ResponsiveContainer>
             </div>
-            <div style={{ width: '30%', height: 300 }}>
+            <div style={{ width: '100%', height: 300 }}>
                 <ResponsiveContainer>
                     <BarChart
                         width={500}

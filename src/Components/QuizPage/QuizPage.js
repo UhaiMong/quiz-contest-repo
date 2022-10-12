@@ -5,12 +5,10 @@ import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import './QuizPage.css'
 
-const QuizPage = ({ quizQuestion }) => {
+const QuizPage = ({ quizQuestion, index }) => {
 
     const { question, options, correctAnswer
-} = quizQuestion;
-const correctCount = 0;
-const wrongCount = 0;
+    } = quizQuestion;
 
 const choiceHandler = (option) => {
 
@@ -31,7 +29,7 @@ const choiceHandler = (option) => {
             </div>
 
             <div className='question'>
-                <h3>{question}</h3><br />
+                <h3>{index}.{question}</h3><br />
             </div>
             <button onClick={showAnswer} className='btn-eye'><FontAwesomeIcon icon={faEye} /></button>
             <div>
@@ -42,7 +40,7 @@ const choiceHandler = (option) => {
                         onClick={()=>choiceHandler(option)}
                     >
                         <input type="radio" id="ansId"
-                            name="contact" value="option"/>{option}
+                            name="name" value="option"/>{option}
                     </div>)
                 }
             </div>

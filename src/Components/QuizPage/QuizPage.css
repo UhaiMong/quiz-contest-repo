@@ -11,6 +11,8 @@
 }
 .question h3{
     color: #3bc4f1bf;
+    text-align: start;
+    padding: 0 12px;
 }
 .btn-eye{
     border: none;

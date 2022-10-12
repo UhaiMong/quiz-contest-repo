@@ -13,11 +13,13 @@ const QuizDetails = () => {
             </div>
 
             <h1>{quizDetails.data.name}</h1>
+            <h4>Total Quiz: { quizDetails.data.total}</h4>
             <div>
                 {
-                    quizDetails.data.questions.map(quizQuestion => <QuizPage
+                    quizDetails.data.questions.map((quizQuestion,index) => <QuizPage
                         key={quizQuestion.id}
                         quizQuestion={quizQuestion}
+                        index={index+1}
                     ></QuizPage>)
                 }
             </div>
